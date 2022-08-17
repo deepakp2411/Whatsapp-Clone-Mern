@@ -31,9 +31,11 @@ const Sidebar = () => {
         </div>
       </div>
       <div className="sidebar__chats">
-        <SidebarChat />
-        <SidebarChat />
-        <SidebarChat />
+        <SidebarChat name="Jason" message="Whats going on..?" />
+        <SidebarChat name="Alex" message="have you completed the task ?"  />
+        <SidebarChat name="Bisrat" message="I will do it later"  />
+        <SidebarChat name="Gaurav" message="kuch nahi " />
+        <SidebarChat name="Sam" message="Hey deepak " />
       </div>
     </div>
   );

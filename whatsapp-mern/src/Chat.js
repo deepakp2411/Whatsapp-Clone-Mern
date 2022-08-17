@@ -21,9 +21,9 @@ const Chat = ({ messages }) => {
     e.preventDefault();
     await axios.post("/messages/new", {
       message: input,
-      name: "deep",
-      timestamp: "just now",
-      received: true,
+      name: "alex",
+      timestamp: "1.05pm",
+      received: false,
     });
 
     setInput("");
@@ -33,8 +33,8 @@ const Chat = ({ messages }) => {
       <div className="chat__header">
         <Avatar src={`https://avatars.dicebear.com/api/human/${seed}.svg`} />
         <div className="chat__headerInfo">
-          <h3>Room name</h3>
-          <p>Last seen at...</p>
+          <h3>MERN Stack </h3>
+          <p>Last seen at...12:00pm</p>
         </div>
 
         {/* sidebar right  */}

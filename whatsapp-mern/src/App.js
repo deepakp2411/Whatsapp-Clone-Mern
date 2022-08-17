@@ -11,7 +11,7 @@ function App() {
   // pusher config
   useEffect(() => {
     axios.get("/messages/sync").then((response) => {
-      console.log(response.data);
+      // console.log(response.data);
       setMessages(response.data);
     });
   }, []);
